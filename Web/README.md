@@ -295,3 +295,14 @@ https://www.google.com/search<span style="background-color:#F5F5F5">?q=techit</s
 ## DNS (Domain Name Server)
 
 - URl을 해석하여 IP 주소로 변환하는 서버
+
+- 도메인은 IP 주소를 대신하여 사용하는 주소이다.
+- DNS라는 시스템을 이용해서 IP와 도메인을 매칭한다.
+- DNS란 웹사이트의 IP 주소와 도메인 주소를 이어주는 환경/시스템이다.
+- DNS 시스템 안에서 IP와 도메인 매칭을 하는 역할을 하는 것이 DNS 서버이다.
+- DNS 서버와 네임서버는 같은 의미이다.
+- 국가, 기업등이 운영을 하고 전세계 DNS는 연결되어 있다. 따라서, 장애 발생 시 막대한 피해로 이어진다.
+
+<br/>
+
+  <img src="https://github.com/WestSilver99/Daily_Study/blob/main/Web/img/dns.png?raw=true">

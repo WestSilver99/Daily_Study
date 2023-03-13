@@ -53,11 +53,17 @@ PC 통신과 Web의 차이점
 
 ## 클라이언트와 서버
 
+<img src="https://github.com/WestSilver99/Daily_Study/blob/main/Web/img/client.png?raw=true">
+클라이언트(client): 요청을 보내는 주체
+
 <hr/>
 <br/>
 
 ## HTTP 통신과 URL
 
 HTTP(Hyper Text Transfer Protocol): 인터넷에서, 웹 서버와 사용자의 인터넷 브라우저 사이에 문서를 전송(Transfer)하기 위해 사용되는 통신 규약(Protocol)<br/>
+<img src="https://github.com/WestSilver99/Daily_Study/blob/main/Web/img/http.png?raw=true">
+=> 웹은 html 언어로 되어있고 응답받는 요소중 하나이다.
+<br/>
 <br/>
 URL: 한 인터넷 서버(즉 웹 페이지)에서 주관하는 자원에 접근할 수 있는 모든 데이터.

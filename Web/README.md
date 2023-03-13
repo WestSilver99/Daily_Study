@@ -10,7 +10,7 @@
 
 <hr/>
 
-## Web의 등장
+# Web의 등장
 
 옛날에는 전화선을 이용하는 PC통신을 했지만, 영국의 컴퓨터 과학자 팀 버너스 리(Sir Tim Berners-Lee)가 1989년 World Wide Web을 고안하게 됨.
 <br/><br/>
@@ -51,7 +51,7 @@ PC 통신과 Web의 차이점
 <hr/>
 <br/>
 
-## 클라이언트와 서버
+# 클라이언트와 서버
 
 <img src="https://github.com/WestSilver99/Daily_Study/blob/main/Web/img/client.png?raw=true">
 클라이언트(client): 요청을 보내는 주체
@@ -59,7 +59,7 @@ PC 통신과 Web의 차이점
 <hr/>
 <br/>
 
-## HTTP 통신과 URL
+# HTTP 통신과 URL
 
 HTTP(Hyper Text Transfer Protocol): 인터넷에서, 웹 서버와 사용자의 인터넷 브라우저 사이에 문서를 전송(Transfer)하기 위해 사용되는 통신 규약(Protocol)<br/><br/>
 <img src="https://github.com/WestSilver99/Daily_Study/blob/main/Web/img/http.png?raw=true">
@@ -109,13 +109,14 @@ https://www.google.com/search<span style="background-color:#F5F5F5">?q=techit</s
 <hr/>
 <br/>
 
-## 쿠키와 세션
+# 쿠키와 세션
 
 <br/>
 
 ### 쿠키
 
 - 쿠키는 클라이언트(브라우저) 로컬에 저장되는 키와 값이 들어있는 작은 데이터 파일입니다.
+
 - 사용자 인증이 유효한 시간을 명시할 수 있으며, 유효 시간이 정해지면 브라우저가 종료되어도 인증이 유지된다는 특징이 있습니다.
 - 쿠키는 클라이언트의 상태 정보를 로컬에 저장했다가 참조합니다.
 - 클라이언트에 300개까지 쿠키저장 가능, 하나의 도메인당 20개의 값만 가질 수 있음, 하나의 쿠키값은 4KB까지 저장합니다.
@@ -127,6 +128,7 @@ https://www.google.com/search<span style="background-color:#F5F5F5">?q=techit</s
 ### 쿠키의 구성 요소
 
 - 이름 : 각각의 쿠키를 구별하는 데 사용되는 이름
+
 - 값 : 쿠키의 이름과 관련된 값
 - 유효시간 : 쿠키의 유지시간
 - 도메인 : 쿠키를 전송할 도메인
@@ -153,6 +155,7 @@ https://www.google.com/search<span style="background-color:#F5F5F5">?q=techit</s
 ### 세션의 동작 방식
 
 - 클라이언트가 서버에 접속 시 세션 ID를 발급 받음
+
 - 클라이언트는 세션 ID에 대해 쿠키를 사용해서 저장하고 가지고 있음
 - 클라리언트는 서버에 요청할 때, 이 쿠키의 세션 ID를 같이 서버에 전달해서 요청
 - 서버는 세션 ID를 전달 받아서 별다른 작업없이 세션 ID로 세션에 있는 클라언트 정보를 가져와서 사용
@@ -166,7 +169,7 @@ https://www.google.com/search<span style="background-color:#F5F5F5">?q=techit</s
 <hr/>
 <br/><br/>
 
-## IP, Port 그리고 DNS
+# IP, Port 그리고 DNS
 
 ### 네트워크
 
@@ -175,6 +178,7 @@ https://www.google.com/search<span style="background-color:#F5F5F5">?q=techit</s
 ### 네트워크의 구성요소
 
 - 호스트(Host): 구성된 네트워크에서 연결된 개별 컴퓨터
+
 - 스위치(switch): 많은 컴퓨터를 연결하기 위한 매개체
 - 라우터(router): 서로 다른 네트워크 간의 통신을 위한 장비
 
@@ -187,6 +191,7 @@ https://www.google.com/search<span style="background-color:#F5F5F5">?q=techit</s
 ## IP (Internet Protocol)
 
 - 컴퓨터 간 데이터를 주고받는 네트워크 계층의 규약
+
 - 데이터 전달에 필요한 <span style="color:yellow">목적지 컴퓨터 정보</span>가 필요하다.
 
 ## IP 주소
@@ -234,6 +239,7 @@ https://www.google.com/search<span style="background-color:#F5F5F5">?q=techit</s
 ### 공인 IP (Public IP)
 
 - 전체 인터넷 망에서 고유하게 식별 가능한 주소
+
 - IPv4 체계에서 자원 부족
 - 하나의 공인 IP에서 수많은 사설 IP 할당이 가능
 
@@ -242,9 +248,50 @@ https://www.google.com/search<span style="background-color:#F5F5F5">?q=techit</s
 ### 사설 IP (Private IP)
 
 - 가정의 LAN과 같은 네트워크에서 할당되는 주소
+
 - 컴퓨터에서 조회되는 IP
+
+<br/>
+
+<img src="https://github.com/WestSilver99/Daily_Study/blob/main/Web/img/isp.png?raw=true">
+
+<br/>
 
 ### 127.0.0.1
 
 - localhost: 컴퓨터의 관점에서 자기 자신을 가리키기 위해 약속된 주소 <br/>
   => 자신의 컴퓨터에서만 유효함.
+
+<br/>
+
+<img src="https://github.com/WestSilver99/Daily_Study/blob/main/Web/img/ip.png?raw=true">
+<br/>
+<br/>
+
+## Port
+
+- 컴퓨터가 각종 신호, 정보 등을 주고 받을 수 있도록 해주는 통신 통로 (=컴퓨터의 도로)
+
+- 여러 네트워크 활동 (ex. 업로드, 다운로드 등)을 할 때 사용하는 관문 같은 역할
+
+- 컴퓨터 안에서 프로그램을 찾기 위한 수단, 즉 각 프로세스가 위치한 방 번호라고 생각하면 됨
+
+- 즉, 다양한 서비스를 구분하는 역할!
+
+<br/>
+
+| Protocol | 포트 번호 |
+| -------- | --------- |
+| HTTP     | 80        |
+| HTTPS    | 443       |
+| SMTP     | 25        |
+| FTP      | 21        |
+
+=> Protocol과 포트번호
+
+<br/>
+<br/>
+
+## DNS (Domain Name Server)
+
+- URl을 해석하여 IP 주소로 변환하는 서버

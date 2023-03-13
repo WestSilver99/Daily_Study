@@ -1,11 +1,5 @@
 # GitHub
 
-# GitHub
-
-## Git
-
-=======
-
 ## Git
 
  <img src="https://velog.velcdn.com/images%2Fjini_eun%2Fpost%2F43ac40ae-8ffe-4a78-9236-27911962664a%2Fimage.png">

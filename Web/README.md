@@ -145,6 +145,10 @@ https://www.google.com/search<span style="background-color:#F5F5F5">?q=techit</s
 - 사용자에 대한 정보를 서버에 두기 때문에 쿠키보다 보안에 좋지만, 사용자가 많아질수록 서버 메모리를 많이 차지하게 됩니다.
 - 즉 동접자 수가 많은 웹 사이트인 경우 서버에 과부하를 주게 되므로 성능 저하의 요인이 됩니다.
 - 클라이언트가 Request를 보내면, 해당 서버의 엔진이 클라이언트에게 유일한 ID를 부여하는 데 이것이 세션 ID입니다.
+  <br/>
+
+  <img src="https://github.com/WestSilver99/Daily_Study/blob/main/Web/img/cookie.png?raw=true">
+  <br/>
 
 ### 세션의 동작 방식
 
@@ -153,6 +157,10 @@ https://www.google.com/search<span style="background-color:#F5F5F5">?q=techit</s
 - 클라리언트는 서버에 요청할 때, 이 쿠키의 세션 ID를 같이 서버에 전달해서 요청
 - 서버는 세션 ID를 전달 받아서 별다른 작업없이 세션 ID로 세션에 있는 클라언트 정보를 가져와서 사용
 - 클라이언트 정보를 가지고 서버 요청을 처리하여 클라이언트에게 응답
+  <br/>
+
+<img src="https://github.com/WestSilver99/Daily_Study/blob/main/Web/img/session.png?raw=true">
+<br/>
 
 <br/>
 <hr/>
@@ -171,4 +179,72 @@ https://www.google.com/search<span style="background-color:#F5F5F5">?q=techit</s
 - 라우터(router): 서로 다른 네트워크 간의 통신을 위한 장비
 
 <br/>
-이렇게 거대하게 연결된 네트워크를 인터넷이라 한다.
+<img src="https://github.com/WestSilver99/Daily_Study/blob/main/Web/img/internet.png?raw=true">
+=> 이렇게 거대하게 연결된 네트워크를 인터넷이라 한다.
+
+<br/>
+
+## IP (Internet Protocol)
+
+- 컴퓨터 간 데이터를 주고받는 네트워크 계층의 규약
+- 데이터 전달에 필요한 <span style="color:yellow">목적지 컴퓨터 정보</span>가 필요하다.
+
+## IP 주소
+
+- 네트워크에서 컴퓨터가 부여받는 고유한 주소
+
+## IPv4 vs IPv6
+
+<br/>
+
+| 구분        | IPv6                                    | IPv4                   |
+| ----------- | --------------------------------------- | ---------------------- |
+| 주소길이    | 128 비트                                | 32비트                 |
+| 주소 형태   | 2001:0db8:85a3:08d3:1319:8a2e:0370:7334 | 221.23.222.222         |
+| 주소 개수   | 2의 128승개 (43억 x 43억 x 43억 x 43억) | 2의 32승개 (약 43억개) |
+| 패킷 헤더   | 고정 사이즈                             | 변동 사이즈            |
+| 헤더 필드수 | 12                                      | 8                      |
+| P&P 기능    | 자동 구성으로 지원                      | 없음                   |
+| 이동성      | 가능                                    | 상당히 곤란            |
+
+<br/>
+
+11000000101010000000000000000011
+<br/>
+=> 32비트 주소를 8비트씩 분할
+<br/>
+11000000 | 10101000 | 00000000 |00000011
+<br/>
+=> 2진수를 10진수로 변환
+<br/>
+192.168.0.3
+
+<br/>
+
+각 마디의 숫자는 0부터 255로 구성되어 있다.
+
+- 0.0.0.0 ~ 255.255.255.255
+
+<br/>
+
+## 공인 IP vs 사설 IP
+
+<br/>
+
+### 공인 IP (Public IP)
+
+- 전체 인터넷 망에서 고유하게 식별 가능한 주소
+- IPv4 체계에서 자원 부족
+- 하나의 공인 IP에서 수많은 사설 IP 할당이 가능
+
+<br/>
+
+### 사설 IP (Private IP)
+
+- 가정의 LAN과 같은 네트워크에서 할당되는 주소
+- 컴퓨터에서 조회되는 IP
+
+### 127.0.0.1
+
+- localhost: 컴퓨터의 관점에서 자기 자신을 가리키기 위해 약속된 주소 <br/>
+  => 자신의 컴퓨터에서만 유효함.

@@ -52,5 +52,5 @@ PC 통신과 Web의 차이점
 <br/>
 
 ## 클라이언트와 서버
-
+<img src="https://github.com/WestSilver99/Daily_Study/blob/main/Web/img/client.png?raw=true">
 클라이언트(client): 요청을 보내는 주체
